@@ -24,7 +24,7 @@ Attacks Utilised In Steps
 Step 1: Attack 
 ------------------------
 
-AttackType: ILFI | ALFI
+AttackType: ILFI 
 
 ImpactDefinition 
 CommandType: CPU | Disk | IO | Memory | Shutdown | Process Killer | Shutdown | Time Travel | Blackhole | DNS | Latency | Packet Loss
@@ -44,7 +44,7 @@ StrategyType: Random
 Step 2: Attack 
 ------------------------
 
-AttackType: ILFI | ALFI
+AttackType: ILFI 
 
 ImpactDefinition 
 CommandType: CPU | Disk | IO | Memory | Shutdown | Process Killer | Shutdown | Time Travel | Blackhole | DNS | Latency | Packet Loss
