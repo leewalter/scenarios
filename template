@@ -1,0 +1,61 @@
+#Name for the scenario
+Scenario Name: 
+
+#Description for the scenario
+Description: 
+
+#Hypothesis for the scenario
+Hypothesis: 
+
+------------------------
+#Steps for the scenario
+Scenario Steps
+
+#Number of steps in the scenario
+Step count: 
+
+#Delay between steps in the scenario
+Delay between steps:  
+
+#Attacks that will be used in the steps
+Attacks Utilised In Steps
+------------------------
+
+Step 1: Attack 
+------------------------
+
+AttackType: ILFI | ALFI
+
+ImpactDefinition 
+CommandType: CPU | Disk | IO | Memory | Shutdown | Process Killer | Shutdown | Time Travel | Blackhole | DNS | Latency | Packet Loss
+CommandArgs:
+  Reboot: True | False
+  Delay: 0 | 1
+  Length: 0 
+
+TargetDefinition
+TargetType: Host | Container
+
+Strategy
+Count: 1 | 2
+StrategyType: Random
+
+
+Step 2: Attack 
+------------------------
+
+AttackType: ILFI | ALFI
+
+ImpactDefinition 
+CommandType: CPU | Disk | IO | Memory | Shutdown | Process Killer | Shutdown | Time Travel | Blackhole | DNS | Latency | Packet Loss
+CommandArgs:
+  Reboot: True | False
+  Delay: 0 | 1
+  Length: 0 
+
+TargetDefinition
+TargetType: Host | Container
+
+Strategy
+Count: 1 | 2
+StrategyType: Random
