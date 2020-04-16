@@ -17,10 +17,11 @@ Step count: 1
 #Delay between steps in the scenario
 Delay: 5
 
-Attacks
+#Attacks that will be used in the steps
+Attacks Utilised In Steps
 ------------------------
 
-Attack 1
+Step 1: Attack 
 ------------------------
 
 AttackType: ILFI
